@@ -1,0 +1,26 @@
+/* I am keeping my custom canvas styles but making them look cleaner */
+body {
+    background-image: url(/images/puzzles1.jpg);
+    /* wanted to have a backround that was vibrant, found a free image from pexels.com */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+    font-family: 'Courier New', Courier, monospace;
+    /* cool font */
+}
+
+canvas {
+    border: 5px solid #000000;
+    /* giving it a thick border to make it look more like a canvas */
+    border-radius: 8px;
+    /* rounding the corners */
+    background: rgb(255, 255, 255);
+    cursor: cell;
+    /* after scrolling through all the cursor options my vs code had, i liked this one the most, or crosshair as well*/
+}
+
+#server-message {
+    color: grey;
+}

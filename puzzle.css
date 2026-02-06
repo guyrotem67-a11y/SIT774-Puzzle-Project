@@ -1,0 +1,29 @@
+body {
+    background-image: url(images/puzzles1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#puzzle-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: dashed #444343;
+    /* dashed creates the border line with dashed lines*/
+    border-radius: 8px;
+}
+
+.piece {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    cursor: grab;
+    touch-action: none; /* this allows for the js to work*/ 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
